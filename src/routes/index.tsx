@@ -6,6 +6,7 @@ export default () => {
   
   return (
     <>
+    {/* <navbar +login page> */}
 {/* 
  <div class=" flex flex-col min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
 
@@ -91,11 +92,28 @@ export default () => {
 
 
 
-  <div class="flex flex-col min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
-  <Navbar></Navbar>
+  <div class="flex flex-col h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+     <Navbar></Navbar>
    
-    <div class="flex grow justify-center items-center flex-col gap-3">
+     <div class="flex grow justify-center items-center flex-col gap-3">
       
+    </div>
+  </div>
+
+  <div  class="flex flex-col min-h-screen  bg-slate-950">
+    <div>
+      <h1 class="text-cyan-500 text-4xl font-extrabold">Our Top Trips</h1>
+    </div>
+    <div>
+      <p class="text-white font-serif  ">We have a few specail premotion for our faithfull trip</p>
+    </div>
+    <div class="flex gap-4">
+       <div class="bg-cyan-400 w-56 h-72 "></div>
+       <div class="bg-cyan-400 w-56 h-72 "></div>
+       <div class="bg-cyan-400 w-56 h-72 "></div>
+    </div>
+    <div>
+        
     </div>
   </div>
 
