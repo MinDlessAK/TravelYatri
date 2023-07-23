@@ -21,7 +21,7 @@ export default function login() {
           <a href="#" class="text-cyan-400 hover:underline">Forgot password?</a>
         </div>
         <div class="flex">
-          <button class="rounded-full bg-cyan-500 text-white w-full h-10">Login Now</button>
+          <button class="rounded-full bg-cyan-500 text-white w-full h-10 hover:scale-110 transition-all duration-300 ease-in-out  font-semibold">Login Now</button>
         </div>
         <div class="flex justify-center">
           Don't have an account?
