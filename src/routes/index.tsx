@@ -1,121 +1,72 @@
+// Uncomment with level 1 to get output
+// import Navbar from "~/components/home/navbar";
+// import Trips from '~/components/home/trips';
+// import Service from "~/components/home/Service";
+// import ImgBeach from "~/components/media/beach.jpg?jsx"
+// import GetStart from "~/components/home/getStart";
 
-import Navbar from "~/components/home/navbar";
+// import { Link } from "@builder.io/qwik-city";
+
 
 // import ImgBg from '~/media/bg.jpg?jsx';
 export default () => {
   
   return (
     <>
-    {/* <navbar +login page> */}
-{/* 
- <div class=" flex flex-col min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
-
-   <div class=" h-14  w-full  flex justify-between items-center p-3 gap-3 ">
-      <div class="">
-        <a href="#"  class="text-cyan-300 font-extrabold text-2xl ml-10 ">TravelYatri</a>
-      </div>
-       <div class="">
-        <ul >
-          <li class="lg:space-x-20 space-x-6 text-xl">
-            <a href="#"  class="text-white hover:underline hover:text-cyan-400">Home</a>
-            <a href="#"  class="text-white hover:underline hover:text-cyan-400">Trips</a>
-            <a href="#"  class="text-white hover:underline hover:text-cyan-400">Services</a>
-            <a href="#"  class="text-white hover:underline hover:text-cyan-400">Contact</a>
-          </li>
-         </ul>
-        </div>
-         <div class="mr-10">
-           <button id="form-open" class="block px-6 py-3 rounded-full bg-gradient-to-r from-sky-600 to-cyan-400 text-center text-white">Login</button>
-          </div>
-    </div>
-    <div class="flex grow justify-center items-center flex-col gap-3">
-      <div class="bg-white flex  rounded-xl w-80 flex-col gap-6 p-4">
-              <div class="font-bold text-2xl flex justify-center">
-                <h2>Login</h2>
-              </div>
-                <div>
-                 <input type="email" placeholder="Enter your email" required class="border-b focus:outline-none focus:border-black w-full" />
-                </div>
-            
-               <div>
-                 <input type="password" placeholder="Enter your password" required class="border-b focus:outline-none focus:border-black w-full" />
-                </div>
-
-               
-              <div class="flex justify-between">
-                 <span class="checkbox">
-                  <input type="checkbox" id="check"  class="mr-1"/>
-                  <label for="check">Remember me</label>
-                </span>
-                <a href="#" class="text-cyan-400 hover:underline">Forgot password?</a>
-            </div>
-
-
-            <div class="flex">
-                <button class="rounded-full bg-cyan-500 text-white w-full h-10">Login Now</button>
-            </div>
-            <div class="flex justify-center">
-              Don't have an account? 
-            <a href="#" id="signup" class="text-cyan-400 hover:underline ml-1">Signup</a>
-            </div>
-        </div>
-        <div class="bg-white flex  rounded-xl w-80 flex-col gap-6 p-4">
-
-              <div class="font-bold text-2xl flex justify-center">
-                <h2>Signup</h2>
-              </div>
-
-                <div>
-                 <input type="email" placeholder="Enter your email" required class="border-b focus:outline-none focus:border-black w-full" />
-                </div>
-            
-               <div>
-                 <input type="password" placeholder="Create password" required class="border-b focus:outline-none focus:border-black w-full" />
-                </div>
-
-            <div>
-                 <input type="password" placeholder="Confirm password" required class="border-b focus:outline-none focus:border-black w-full" />
-            </div>
-
-            <div class="flex">
-                <button class="rounded-full bg-cyan-500 text-white w-full h-10">Signup Now</button>
-            </div>
-
-            <div class="flex justify-center">
-              Already  have an account? 
-            <a href="#" id="signup" class="text-cyan-400 hover:underline ml-1">Login</a>
-            </div>
-        </div>
-      </div>
-    
-  </div> */}
-
-
-
-  <div class="flex flex-col h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+{/* level 1 */}
+{/* <div class="flex flex-col min-h-screen w-full bg-gradient-to-r from-slate-900 to-slate-700">
      <Navbar></Navbar>
    
-     <div class="flex grow justify-center items-center flex-col gap-3">
-      
+     <div class="flex grow justify-center items-center flex-col gap-10 ">
+          <GetStart></GetStart>
+     </div>
+</div>
+
+<div  class=" min-h-screen w-full  bg-slate-950 ">
+        <Trips></Trips>
+        <Service></Service>
+</div>
+
+<div class=" relative min-h-screen flex flex-col">
+
+  <div class="flex h-screen w-full absolute  ">
+     <ImgBeach class="h-full w-full "/>
+  </div>
+
+       <div class="h-screen w-full grid relative place-items-center">
+          <div class="bg-white p-4 rounded-md shadow-6xl w-80  bg-opacity-0  backdrop-blur-xl">
+            <p class="text-black text-xl font-exo2 text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
+              nemo?
+            </p>
+            <div class="w-full grid place-content-center my-6">
+              <button class="text-white font-semibold bg-cyan-500 rounded-md px-4 py-1 hover:scale-110 transition-all duration-300 ease-in-out hover:scale-110 transition-all duration-300 ease-in-out font-semibold">
+                Click Here
+              </button>
+            </div>
+          </div>
+        </div>
+
+  <div class="bg-slate-700 flex justify-center gap-8 p-5 absolute bottom-0 left-0 w-full" >
+    <div>
+       <p class="text-white">
+           travelyatri@gmail.com
+       </p>
+    </div>
+    <div class=" ">
+    <p class="text-white ">+91 9832838742</p>
     </div>
   </div>
 
-  <div  class="flex flex-col min-h-screen  bg-slate-950">
-    <div>
-      <h1 class="text-cyan-500 text-4xl font-extrabold">Our Top Trips</h1>
-    </div>
-    <div>
-      <p class="text-white font-serif  ">We have a few specail premotion for our faithfull trip</p>
-    </div>
-    <div class="flex gap-4">
-       <div class="bg-cyan-400 w-56 h-72 "></div>
-       <div class="bg-cyan-400 w-56 h-72 "></div>
-       <div class="bg-cyan-400 w-56 h-72 "></div>
-    </div>
-    <div>
-        
-    </div>
-  </div>
+</div> */}
+
+<div class= "min-h-screen bg-slate-950 flex justify-center items-center">
+  
+
+
+</div>
+
+
 
   </>
   );
