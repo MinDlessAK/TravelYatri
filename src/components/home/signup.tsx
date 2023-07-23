@@ -17,7 +17,7 @@ export default function signup() {
           <input type="password" placeholder="Confirm password" required class="border-b focus:outline-none focus:border-black w-full" />
         </div>
         <div class="flex">
-          <button class="rounded-full bg-cyan-500 text-white w-full h-10">Signup Now</button>
+          <button class="rounded-full bg-cyan-500 text-white w-full h-10 hover:scale-110 transition-all duration-300 ease-in-out  font-semibold">Signup Now</button>
         </div>
         <div class="flex justify-center">
           Already have an account?
