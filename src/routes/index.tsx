@@ -1,22 +1,22 @@
 // Uncomment with level 1 to get output
-// import Navbar from "~/components/home/navbar";
-// import Trips from '~/components/home/trips';
-// import Service from "~/components/home/Service";
-// import ImgBeach from "~/components/media/beach.jpg?jsx"
-// import GetStart from "~/components/home/getStart";
+import Navbar from "~/components/home/navbar";
+import Trips from '~/components/home/trips';
+import Service from "~/components/home/Service";
+import ImgBeach from "~/components/media/beach.jpg?jsx"
+import GetStart from "~/components/home/getStart";
+// import Mnavbar from "~/components/home/mnavbar";
+
+
 
 // import { Link } from "@builder.io/qwik-city";
 
-
 // import ImgBg from '~/media/bg.jpg?jsx';
 export default () => {
-  
   return (
     <>
-{/* level 1 */}
-{/* <div class="flex flex-col min-h-screen w-full bg-gradient-to-r from-slate-900 to-slate-700">
-     <Navbar></Navbar>
-   
+      {/* level 1 */}
+      <div class="flex flex-col min-h-screen w-full bg-gradient-to-r from-slate-900 to-slate-700">
+        <Navbar></Navbar>
      <div class="flex grow justify-center items-center flex-col gap-10 ">
           <GetStart></GetStart>
      </div>
@@ -40,7 +40,7 @@ export default () => {
               nemo?
             </p>
             <div class="w-full grid place-content-center my-6">
-              <button class="text-white font-semibold bg-cyan-500 rounded-md px-4 py-1 hover:scale-110 transition-all duration-300 ease-in-out hover:scale-110 transition-all duration-300 ease-in-out font-semibold">
+              <button class="text-white font-semibold bg-cyan-500 rounded-md px-4 py-1  hover:scale-110 transition-all duration-300 ease-in-out ">
                 Click Here
               </button>
             </div>
@@ -58,20 +58,9 @@ export default () => {
     </div>
   </div>
 
-</div> */}
-
-<div class= "min-h-screen bg-slate-950 flex justify-center items-center">
-  
-
-
 </div>
-
-
-
-  </>
+    
+      
+    </>
   );
 };
-
-  
-
-
