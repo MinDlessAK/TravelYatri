@@ -4,7 +4,7 @@ import Htrips from '~/components/home/htrips';
 import Service from "~/components/home/Service";
 // import { Link } from "@builder.io/qwik-city";
 // import ImgTravel1 from '~/components/media/travel1.jpg?jsx';
-import ImgBeach from '~/components/media/beach.jpg?jsx';
+import ImgBeach from '~/media/beach.jpg?jsx';
 // import ImgMountain from '~//components/media/mountain.jpg?jsx';
 import GetStart from "~/components/home/getStart";
 

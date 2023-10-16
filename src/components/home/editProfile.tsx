@@ -1,5 +1,5 @@
 import { Link } from "@builder.io/qwik-city";
-import ImgBeach from '~/components/media/beach.jpg?jsx';
+import ImgBeach from '~/media/beach.jpg?jsx';
 
 export default function  editProfile() {
   return (

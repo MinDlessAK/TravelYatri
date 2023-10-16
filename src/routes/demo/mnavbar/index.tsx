@@ -2,7 +2,7 @@
 import Navbar from "~/components/home/navbar";
 import Trips from '~/components/home/htrips';
 import Service from "~/components/home/Service";
-import ImgBeach from "~/components/media/beach.jpg?jsx"
+import ImgBeach from "~/media/beach.jpg?jsx"
 import GetStart from "~/components/home/getStart";
 
 export default function index() {

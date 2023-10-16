@@ -1,7 +1,7 @@
 import Navbar from "./navbar"
-import ImgTravel1 from '~/components/media/travel1.jpg?jsx';
-import ImgBeach from '~/components/media/beach.jpg?jsx';
-import ImgMountain from '~//components/media/mountain.jpg?jsx';
+import ImgTravel1 from '~/media/travel1.jpg?jsx';
+import ImgBeach from '~/media/beach.jpg?jsx';
+import ImgMountain from '~/media/mountain.jpg?jsx';
 import { Link } from "@builder.io/qwik-city";
 
 function trips() {
